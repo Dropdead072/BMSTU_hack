@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<label for="total-flat-square">Общая площадь квартиры</label>
+    <input id="total-flat-square" type="text">
+
+    <label for="living-flat-square">Жилая площадь квартиры</label>
+    <input id="living-flat-square" type="text">
+	
+	<label for="kitchen-square">Площадь кухни</label>
+    <input id="kitchen-square" type="text">
+
+	<label for="distance-km">Расстояние до центра в километрах</label>
+    <input id="distance-km" type="text">
+
+	<label for="distance-min">Расстояние до метро в минутах</label>
+    <input id="distance-min" type="text">
+
+	<div class="wrapper">
+		<p>Метро в пешей доступности</p>
+		<label class="switch">
+			<input class="switch1" type="checkbox">
+			<span class="slider round"></span>
+		</label>
+	</div>
+
+	<div class="wrapper">
+		<p>Дом сделан из кирпичного монолита</p>
+		<label class="switch">
+			<input class="switch2" type="checkbox">
+			<span class="slider round"></span>
+		</label>
+	</div>
+	<div class="wrapper">
+		<p>Квартира расположена НЕ на первом и НЕ на последнем этаже</p>
+		<label class="switch">
+			<input class="switch3" type="checkbox">
+			<span class="slider round"></span>
+		</label>
+	</div>
+
+	<button id="check-price">Рассчитать стоимость</button>
+
+	<label for="price">Полученная стоимость квартиры</label>
+    <input id="price" type="text">
+
+	<script src="js/script.js"></script>
+</body>
+</html>
